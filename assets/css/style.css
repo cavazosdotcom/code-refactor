@@ -1,14 +1,17 @@
 /*  */
+/* selects all selectors, border-box sets that selectos full size is valued with padding and border, it also sets padding and margin around site to 0 */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* changes the background color of the body */
 body {
     background-color: #d9dcd6;
 }
 
+/* attributes for the header at the top left of the page, changes default text and BG color, font and size of blue BG */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,15 +19,18 @@ body {
     color: #ffffff;
 }
 
+/* makes the Horiseon font size, and sets as inline so .seo with look good with Hori...n */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* seo in Hori...n text color */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* division in header, top right list/links position set right, font size and family */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,24 +39,29 @@ body {
     font-size: 20px;
 }
 
+/* I think removes bullets in header div ul */
 .header div ul {
     list-style-type: none;
 }
 
+/* makes links inline */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* In anchor tags make text color white, removes link decorations */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* p font size */
 p {
     font-size: 16px;
 }
 
+/* main stock image size and position */
 .hero {
     height: 800px;
     width: 100%;
@@ -60,22 +71,47 @@ p {
     background-position: center;
 }
 
+/* content set to left of screen */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* benefits set to right of screen */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* content set to inline, takes up 75% width */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* content format, text, BG, etc. */
+.content-left {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* max height of images on content */
+.content-left img {
+    max-height: 200px;
+}
+
+/* h2's margin and font size */
+.content-left h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* format of benefits */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -87,105 +123,26 @@ p {
     background-color: #2589bd;
 }
 
+/* benefit text white, bottom margin on each benefit div*/
 .benefit-right {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* h3's margin and alignment in benefits */
 .benefit-right h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/*
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
 
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-*/
+/* image formatting in benefits */
 .benefit-right img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/*
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-*/
-
-.format-left {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/*
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-*/
-
-.format-left img {
-    max-height: 200px;
-}
-
-/*
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-*/
-
-.format-left h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/*
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-*/
-
+/* footer formatting */
 .footer {
     padding: 30px;
     clear: both;
@@ -193,6 +150,7 @@ p {
     text-align: center;
 }
 
+/* h2 in header font size */
 .footer h2 {
     font-size: 20px;
 }
